@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "react-important-stuff",
+    "plugin:prettier/recommended"
+  ],
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "jsx"
+  ],
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "requireConfigFile": false,
+    "sourceType": "module"
+  }
+}
